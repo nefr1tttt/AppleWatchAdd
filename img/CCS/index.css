@@ -1,0 +1,236 @@
+@import url(../css/fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+body{
+    font-family: "Roboto";
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+.header__nav{
+    padding: 30px 0 80px 0;
+}
+.header__logo{
+    width: 35px;
+    height: 42px;
+}
+.header__list{
+    display: flex;
+    column-gap: 30px;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}
+.header__menu-answer{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+}
+.header__menu-answer::after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 153px;
+    background: #333333;
+}
+.header__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    column-gap: 500px;
+    padding-left: 110px;
+}
+.header__exp-ttl{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+.header__exp-txt{
+    width: 450px;
+    height: 120px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.header__exp-txt::before{
+    display: inline-block;
+    content: "";
+    background-color: #888888;
+    width: 10px;
+    height: 120px;
+}
+.header__exp-btn{ 
+    width: 260px;
+    height: 51px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background:#EA625C;
+    padding: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header__exp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.main__sect-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+.main__sect-card{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 60px;
+    row-gap: 30px;
+}
+.main__sect-ttl{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    width: 280px;
+    height: 27px;
+}
+.main__sect-txt{
+    width: 280px;
+    height: 168px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #333333;
+}
+.main__sect-add{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    color: #EA625C;
+}
+.main__sect-add::before{
+        display: inline-block ;
+        content: "";
+        width: 40px;
+        height: 3px;
+        background: #EA625C;
+}
+
+.main__sect2-ttl{
+    width: 380px;
+    height: 180px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+.main__sect2-txt{
+    height: 96px;
+    width: 450px;
+    font-family: "Roboto";
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    color: #777777;
+}
+.main__sect2-txt::before{
+    display: inline-block;
+    content: "";
+    background-color: #888888;
+    width: 10px;
+    height: 96px;
+}
+.main__sect2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    column-gap: 300px;
+    padding-bottom: 70px;
+}
+.main__sect2-exp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+.footer{
+    background: url(../runners\ 1.jpg) no-repeat center center/cover;
+    width:100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 300px;
+    padding-right: 125px;
+    
+}
+.footer__ttl{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    width: 490px;
+    height: 120px;
+}
+.footer__txt{
+    width: 450px;
+    height: 120px;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.footer__txt::before{
+    display: inline-block;
+    content: "";
+    background-color: white;
+    height: 120px;
+    width: 1px;
+}
+.footer__exp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
